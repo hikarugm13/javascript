@@ -1,16 +1,28 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="UTF-8" />
-    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
-    <script src="janken.js"></script>
-  </head>
-  <body>
-    <p>じゃんけん・・・</p>
-    <input type="radio" name="janken" value="0"><label>グー</label>
-    <input type="radio" name="janken" value="1"><label>チョキ</label>
-    <input type="radio" name="janken" value="2"><label>パー</label>
-    <br>
-    <input type="button" value="ぽん！" class="janken">
-  </body>
+<head>
+<meta charset="UTF-8">
+<title>じゃんけん</title>
+<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+<script src="9491.js" ></script>
+</head>
+<body>
+
+<header> 
+    <h1>じゃんけん</h1> 
+</header> 
+
+<main> 
+    <ul> 
+        <li data-rps="rock" class="rps-hand"><span>グー</span></li> 
+        <li data-rps="scissors" class="rps-hand"><span>チョキ</span></li> 
+        <li data-rps="paper"  class="rps-hand"><span>パー</span></li> 
+    </ul> 
+    <div id="pc">コンピュータの出した手は？</div> 
+    <div id="message">ここに表示されます</div> 
+    <div id="Point01">コンピュータの得点は：<span id="point_com">0</span></div> 
+    <div id="Point02">あなたの得点は：<span id="point_me">0</span></div> 
+</main>
+
+</body>
 </html>
