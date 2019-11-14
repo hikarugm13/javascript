@@ -3,7 +3,7 @@ $(function() {
     // プレイヤーとコンピューターの勝利数を初期化
     var PointCom = 0, PointMe = 0;
 
-    // 次のコンピュータの手を返す。
+    // 次のコンピュータの手を返す。ghjkghjklhjkl
     function getNextComHand() {
 
         // ジャンケンの手のオブジェクト配列を定義
